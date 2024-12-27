@@ -1,0 +1,61 @@
+
+
+:root{
+    --bg-cor: #fff;
+    --color: #000;
+    --bx-cor: #000;
+}
+
+.light{
+    --bg-cor: #333;
+    --color: #fff;
+    --bx-cor: #fff;
+}
+
+.clic {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.clic img{
+    width: 60px;
+}
+
+
+body{
+    background-color: var(--bg-cor);
+    color: var(--color);
+}
+
+.cabec{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 10px red;
+}
+.videos{
+    display: block;
+    /* border: 1px solid red; */
+    padding: 8px;
+    text-align: center; 
+}
+.video{
+    /* border: 1px solid green; */
+    position: relative;
+    height: 315px;
+    padding: 8px;
+    width: 650px;
+    padding: 5px;
+    box-shadow: 0 5px 15px var(--bx-cor);
+}
+#logo{
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
